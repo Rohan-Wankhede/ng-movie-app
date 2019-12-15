@@ -1,0 +1,22 @@
+.popularMovies{
+    display: flex;
+    flex-wrap: wrap;
+    color:white;
+    .movie{
+        margin:1em;
+        display: flex;
+        border-radius: 1em;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(0, 48, 66);
+        padding: 1em;
+        max-width: 15em;
+        h2{
+            word-wrap: break-word;
+        }
+        img{
+            width: 250px;
+        }
+    }
+}

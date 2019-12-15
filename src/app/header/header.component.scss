@@ -1,0 +1,19 @@
+.header{
+    display:flex;
+    justify-content: space-around;
+    a{
+        all:unset;
+        font-size: 1.3em;
+        color: darkblue;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        &:hover{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        
+    }
+    
+
+
+}

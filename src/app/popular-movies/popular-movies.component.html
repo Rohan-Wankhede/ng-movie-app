@@ -1,0 +1,13 @@
+<!-- <button (click)="decrementPage()" ><-</button>
+{{page}} <button (click)="incrementPage()">-></button>
+<button (click)="goToLastPage()">Last Page</button> -->
+<div class="popularMovies">
+<div class="movie" *ngFor="let movie of movies" >
+    <div> <h2>{{movie.title}}</h2>
+    <img src="https://image.tmdb.org/t/p/w500/{{movie.poster_path}}" 
+    alt="{{movie.title}}"></div>
+    <p>Release Date - {{movie.release_date}}</p>
+
+    <!--<p>{{movie.overview}}</p>-->
+</div>
+</div>
