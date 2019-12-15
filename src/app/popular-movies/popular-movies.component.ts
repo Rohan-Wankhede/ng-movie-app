@@ -10,7 +10,7 @@ import {MoviesService} from '../services/movies.service';
   styleUrls: ['./popular-movies.component.scss']
 })
 export class PopularMoviesComponent implements OnInit {
-  private movies: Object[]; 
+  public movies: Object[]; 
   page:number=1;
   totalPages:number;
   constructor(private moviesService: MoviesService) { } 
