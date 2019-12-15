@@ -4,7 +4,8 @@
     a{
         all:unset;
         font-size: 1.3em;
-        color: blue($color: #000000);
+        color: blue;
+        
         font-weight: bold;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         &:hover{
